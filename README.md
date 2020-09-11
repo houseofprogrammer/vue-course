@@ -1,5 +1,8 @@
 # vue-course
 
+## Presentation
+[exploregraphql](https://slides.com/ikhsanalatsary/exploregraphql)
+
 ## Project setup
 ```
 yarn install
