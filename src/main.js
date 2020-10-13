@@ -21,6 +21,9 @@ Vue.config.productionTip = false;
 // Create an http link:
 const link = new HttpLink({
   uri: "https://graphqlworkshop.ikhsan.dev/v1beta1/relay",
+  headers: {
+   'Accept-Encoding': 'gzip',
+  },
   fetch,
 });
 
